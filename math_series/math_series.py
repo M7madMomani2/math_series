@@ -30,19 +30,3 @@ def sum_series(num, val1=0, val2=1):
         return val2
     else:
         return sum_series(num-1,val1,val2) + sum_series(num-2,val1,val2)
-
-
-
-num1 = 9
-
-print(f"fibonacci({num1}) :{fibonacci(num1)}" )
-print(f"lucas({num1}) :{lucas(num1)}" )
-print(f"sum_series({num1}) :{sum_series(1,1,2)}" )
-
-
-
-
-
-
-
-print()
