@@ -1,3 +1,4 @@
+  
 def fibonacci(num):
     if type(num) != int  or num < 0:
         return "invalid input"
@@ -7,7 +8,6 @@ def fibonacci(num):
         return 1
     else:
         return fibonacci(num-1) + fibonacci(num-2)
-
 
 def lucas(num):
     if type(num) != int or num < 0:
